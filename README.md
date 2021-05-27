@@ -108,7 +108,11 @@ Stack variants are seldom used, but they are useful in some occasions.
 ##### Tree:
 
 ***DEF TREE V:***
+
 ***->S1***
+
 ***->>p1***
+
 ***->>p2***
+
 ***->S2***
