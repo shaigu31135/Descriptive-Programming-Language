@@ -49,16 +49,19 @@ The Descriptive Programming Language (DPL) is an auxiliary language used for com
 ##### Boolean:
 
 ***BOOLEAN V***
+
 Boolean variant has only two values: True and False. 
 
 ##### Numeric:
 
 ***NUMERIC V***
+
 Numeric variant stands a mathematical value.
 
 ##### String:
 
 ***STRING V***
+
 String variants are usually ued for queues of characters.
 
 #### Composite Type
@@ -67,37 +70,39 @@ String variants are usually ued for queues of characters.
 
 ***BasicType[] V***
 ***BasicType[n1,n2...] V***
+
 Arrays are defined just like the C language.
 
 ##### Stack:
 
 ***Stack V[d]***
+
 Stack variants are seldom used, but they are useful in some occasions.
 
 ##### Extended Type
 
 ##### Struct:
 
-***DEF STRUCT V:***
-***-BasicTypeOrCompositeTypeOrExtendedType V1***
-***-BasicTypeOrCompositeTypeOrExtendedType V2***
+***DEF STRUCT V:
+-BasicTypeOrCompositeTypeOrExtendedType V1
+-BasicTypeOrCompositeTypeOrExtendedType V2***
 
 ##### Enumeration:
 
-***DEF ENUM V:***
-***-V1***
-***-V2***
+***DEF ENUM V:
+-V1
+-V2***
 
 ##### Dictionary:
 
-***DEF DICT V:***
-***-{KEY1:VALUE1}***
-***-{KEY2:VALUE2}***
+***DEF DICT V:
+-{KEY1:VALUE1}
+-{KEY2:VALUE2}***
 
 ##### Tree:
 
-***DEF TREE V:***
-***->S1***
-***->>p1***
-***->>p2***
-***->S2***
+***DEF TREE V:
+->S1
+->>p1
+->>p2
+->S2***
