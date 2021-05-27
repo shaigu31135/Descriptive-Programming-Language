@@ -83,26 +83,32 @@ Stack variants are seldom used, but they are useful in some occasions.
 
 ##### Struct:
 
-***DEF STRUCT V:
--BasicTypeOrCompositeTypeOrExtendedType V1
--BasicTypeOrCompositeTypeOrExtendedType V2***
+***DEF STRUCT V:***
+
+***-BasicTypeOrCompositeTypeOrExtendedType V1***
+
+***-BasicTypeOrCompositeTypeOrExtendedType V2***
 
 ##### Enumeration:
 
-***DEF ENUM V:
--V1
--V2***
+***DEF ENUM V:***
+
+***-V1***
+
+***-V2***
 
 ##### Dictionary:
 
-***DEF DICT V:
--{KEY1:VALUE1}
--{KEY2:VALUE2}***
+***DEF DICT V:***
+
+***-{KEY1:VALUE1}***
+
+***-{KEY2:VALUE2}***
 
 ##### Tree:
 
-***DEF TREE V:
-->S1
-->>p1
-->>p2
-->S2***
+***DEF TREE V:***
+***->S1***
+***->>p1***
+***->>p2***
+***->S2***
