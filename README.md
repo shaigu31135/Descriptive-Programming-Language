@@ -1,6 +1,7 @@
 # Descriptive-Programming-Language
 
 ## Description
+
 The Descriptive Programming Language (DPL) is an auxiliary language used for computer programming. It is simple, easy to understand, convenient for communication between programmers in different languages and non - technical personnel reading. 
 
 ## Grammar
@@ -11,6 +12,7 @@ The Descriptive Programming Language (DPL) is an auxiliary language used for com
 - Comments need to be placed before or after the code, cannot be in the same line as the code, and start with the character '#' . 
 
 ### Keywords
+
 - ABORT
 - BEGIN
 - BOOLEAN
@@ -41,48 +43,61 @@ The Descriptive Programming Language (DPL) is an auxiliary language used for com
 - YES
 
 ### Grammar
+
 #### Basic Type
+
 ##### Boolean:
+
 ***BOOLEAN V***
 Boolean variant has only two values: True and False. 
 
 ##### Numeric:
-** *NUMERIC V* **
+
+***NUMERIC V***
 Numeric variant stands a mathematical value.
 
 ##### String:
-** *STRING V* **
+
+***STRING V***
 String variants are usually ued for queues of characters.
 
 #### Composite Type
+
 ##### Array:
-** *BasicType[] V* **
-** *BasicType[n1,n2...] V* **
+
+***BasicType[] V***
+***BasicType[n1,n2...] V***
 Arrays are defined just like the C language.
 
 ##### Stack:
-** *Stack V[d]* **
+
+***Stack V[d]***
 Stack variants are seldom used, but they are useful in some occasions.
 
 ##### Extended Type
+
 ##### Struct:
-** *DEF STRUCT V:* **
-** *-BasicTypeOrCompositeTypeOrExtendedType V1* **
-** *-BasicTypeOrCompositeTypeOrExtendedType V2* **
+
+***DEF STRUCT V:***
+***-BasicTypeOrCompositeTypeOrExtendedType V1***
+***-BasicTypeOrCompositeTypeOrExtendedType V2***
 
 ##### Enumeration:
-** *DEF ENUM V:* **
-** *-V1* **
-** *-V2* **
+
+***DEF ENUM V:***
+***-V1***
+***-V2***
 
 ##### Dictionary:
-** *DEF DICT V:* **
-** *-{KEY1:VALUE1}* **
-** *-{KEY2:VALUE2}* **
+
+***DEF DICT V:***
+***-{KEY1:VALUE1}***
+***-{KEY2:VALUE2}***
 
 ##### Tree:
-** *DEF TREE V:* **
-** *-S1* **
-** *--p1* **
-** *--p2* **
-** *-S2* **
+
+***DEF TREE V:***
+***->S1***
+***->>p1***
+***->>p2***
+***->S2***
